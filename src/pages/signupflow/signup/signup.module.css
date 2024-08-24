@@ -1,0 +1,109 @@
+.container {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+}
+
+.leftSection,
+.rightSection {
+    box-sizing: border-box;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightSection > img {
+    width: 100%;
+    height: 100%
+}
+
+.inputField {
+    width: 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.inputField > div {
+    width: 80%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.title {
+    font-family: 'Satoshi';
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.nameInput {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.nameInput > input{
+    box-sizing: border-box;
+    width: 237px;
+    height: 48px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid #089063;
+}
+
+.id {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.id > input {
+    width: 490px;
+    height: 48px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid #089063;
+}
+
+.signupButton {
+    width: 490px;
+    height: 48px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Satoshi';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.52px;
+    letter-spacing: 0.01em;
+    color: white;
+    background-color: #089063;
+}
+
+.signupButton:hover {
+    background-color: white;
+    border: 2px solid #089063;
+    color: #089063;
+    cursor: pointer;
+}
+
+.signinLink {
+    margin: 0;
+    font-family: 'Satoshi';
+    font-size: 16px;
+    font-weight: 500;
+}
